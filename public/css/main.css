@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    color: #000;
+    background: #FFFCEA;
+  }
+  h1 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+  }
+
+  h2{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.025em;
+  }
+  p, li {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.005em;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+
+  header {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+  }
+  header nav {
+    width: 49.5%;
+  }
+  header nav ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  header nav ul #first {
+    margin-left: 2.9%;
+  }
+  header nav a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  header nav a {
+    text-decoration: none;
+    color: #000;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1.5px;
+    transition: background-size 0.8s;
+  }
+  
+  header nav a:hover {
+    background-size: 100% 1.5px;
+  }
+
+ header .phone{
+  display: flex;
+  width: 15%;
+}
+
+header .phone img, header .logo img {
+  max-width: 100%;
+  max-height: auto;
+}
+  
+header .phone #phone {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+footer {
+    background: #E1C189;
+  }
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 64px;
+    padding-bottom: 71px;
+  }
+  footer .container .contactInfo {
+    display: block;
+    margin-bottom: 7.1%;
+  }
+  footer .container .icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  footer .container .icons img {
+    display: block;
+    margin-right: 9%;
+  }
+  footer .container .icons .first {
+    margin-right: 3%;
+  }
+  footer .container .icons .last {
+    margin-right: 0;
+  }
+
+  footer a{
+    display: block;
+    margin-right: 9%;
+}
+
+footer .first{
+  margin-right: 3%;
+}
+
+footer .last{
+  margin-right: 0;
+}
+
+.firstBlock{
+    background-image: url("../img/chocolateBackground.png");
+    height: 800px;
+    padding-top: 120px;
+}
+
+.text{
+    margin: auto;
+    background: rgb(100%, 99%, 92%, 0.7);
+    padding: 30px 50px
+}
+
+a{
+  color: #000 !important;
+  text-decoration: none;
+}
+
+a:hover { 
+  text-decoration: none; 
+ }

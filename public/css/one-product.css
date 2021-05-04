@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+
+.wrap img{
+    display: block;
+    border-radius: 15px;
+    width: 400px;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 30px auto 50px;
+    width: 900px;
+}
+
+.wrap p{
+    width: 400px;
+}
+
+.allergen{
+    text-decoration: underline;
+}
